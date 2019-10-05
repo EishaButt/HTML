@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+    margin: 0;
+	background-image:url(23245.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+   
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,0.2);
+    float:left;
+    width:40%;
+    padding:30px;
+    text-align:center;
+}
+
+.title h1{
+   
+	color: #238;
+	font-size: 1000%;
+}
+
+.button{
+		position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: inherit;
+}
+
+.btn{
+	border: 1pxl solid black;
+	font-size: 40px;
+	padding: 10px 20px;
+	color: red;
+	text-decoration: normal;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+.follow{
+margin-right: 50%;
+
+}
+
+</style>
+<head>
+   <title> MyFirstWebPage </title>
+</head>
+  <body >
+     <header>
+           
+       <div class="main">
+                <ul>
+				    <li class="active"><a href="https://en.wikipedia.org/wiki/Nature">About</a></li>
+				    <li><a href="https://www.pexels.com/search/nature/">Gallery</a></li>
+				</ul>
+      </div>
+	    <div class="title">
+	  <h1> Nature </h1>
+	  </div>
+	  <div class="button">
+	   <a href="https://www.youtube.com/watch?v=Qlpyeu-B9i8" class="btn">Watch Video</a>
+	   <a href="https://www.nature.org/en-us/" class="btn"> Learn More</a>
+	  </div>
+	          <ul class"follow">
+	                <li>
+	                      <a  href="http://www.facebook.com/sharer.php?u=https://www.pexels.com/search/nature/" target="_blank">
+                          <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+	                      
+	                </li>
+		                  <a  href="https://plus.google.com/share?url=https://www.pexels.com/search/nature/" target="_blank">
+                          <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+		               
+	                </li>
+		                  <a  href="http://reddit.com/submit?url=https://www.pexels.com/search/nature" target="_blank">
+                          <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+		                 
+	                </li>
+		                  <a href="https://twitter.com/share?url=https://www.pexels.com/search/nature/" target="_blank">
+                          <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+		                 
+	                </div>
+	         </ul>
+    </header>
+
+  </body>
+</html>
